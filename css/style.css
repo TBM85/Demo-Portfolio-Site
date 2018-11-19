@@ -1,0 +1,44 @@
+body {
+    font: 300 14px 'Lato', sans-serif;
+    color: #747704;
+    min-width: 100%;
+}
+
+hr {
+    margin: calc(0.2em + 1vw);
+}
+
+h1 {
+    font-size: calc(1em + 3vw);
+}
+
+/* Header */
+.img-logo {
+    width: calc(2em + 3vw);
+    float: left;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.small-text {
+    font-size: calc(0.5em + 0.8vw);
+}
+
+.nav-tabs > li {
+    background-color: #747704;
+}
+
+.nav-tabs > li > a {
+    font-size: 1.4em;
+    color: #BCBBBB;
+    border: none;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:hover {
+    color: #747704;
+    border-radius: 0;
+    border: none;
+}
