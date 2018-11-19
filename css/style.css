@@ -12,6 +12,21 @@ h1 {
     font-size: calc(1em + 3vw);
 }
 
+h2 {
+    font-size: calc(1.6em + 0.6vw);
+}
+
+h2.text-muted {
+    color: #BCBBBB;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: calc(1.4em + 0.3vw);
+    color: #747704;
+    margin: 0.4em 0 0.6em 0;
+}
+
 /* Header */
 .img-logo {
     width: calc(2em + 3vw);
@@ -41,4 +56,34 @@ h1 {
     color: #747704;
     border-radius: 0;
     border: none;
+}
+
+/* Section Find your dog */
+.dog-profile {
+    margin: 0 0.4em 1.2em;
+    box-shadow: 1px 1px 6px 3px rgba(46,61,73,0.2);
+    border-radius: 0.3em;
+    display: inline-block;
+}
+
+.dog-profile:hover {
+    box-shadow: 0px 0px 1px 0.5px rgba(46,61,73,0.2);
+}
+
+.dog-profile:hover > a > h3 {
+    color: #BCBBBB;
+}
+
+.dog-profile > a {
+    text-decoration: none;
+}
+
+.dog-profile > a:focus {
+    outline: none;
+}
+
+.img-profile {
+    max-width: 100%;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
 }
