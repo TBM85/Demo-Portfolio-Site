@@ -91,3 +91,31 @@ h3 {
 .dog-paragraph {
     margin-top: 0.6em;
 }
+
+/* Section Contacts */
+.container-contacts {
+    padding-top: 1em;
+}
+
+.img-logo-contacts {
+    width: 6em;
+    padding-top: 2em;
+}
+
+.social-icon {
+    display: inline-block;
+    border: 2px solid #396A90;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    margin: 0.2em 0 1em;
+}
+
+.img-icon {
+    margin: 0.6em;
+}
+
+.social-icon:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
