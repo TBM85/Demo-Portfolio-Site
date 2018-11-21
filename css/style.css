@@ -1,3 +1,34 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .dog-profile {
+        width: calc((100% - 2.8em)/ 3);
+    }
+}
+
+/* Apply styles starting from medium devices and up to large devices */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .dog-profile {
+        width: calc((100% - 2.8em)/ 3);
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .dog-profile {
+        width: calc((100% - 1.8em)/ 2);
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .dog-profile {
+        max-width: 100%;
+    }
+    footer p {
+        font-size: 0.8em;
+    }
+}
+
 body {
     font: 300 14px 'Lato', sans-serif;
     color: #747704;
