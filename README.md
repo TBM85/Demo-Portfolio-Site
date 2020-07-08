@@ -12,4 +12,4 @@ This portfolio website is a customization of the design mockup provided by Udaci
 * [Lato Font](https://fonts.googleapis.com/css?family=Lato:100,300)
 
 ## License
-Copyright (c) 2018 Tania Ballester Marsal. This project is using [MIT License](LICENSE.md)
+Copyright (c) 2018 Tania Ballester. This project is using [MIT License](LICENSE.md)
